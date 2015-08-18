@@ -1,0 +1,220 @@
+From rvk_bayona at yahoo.com  Sun Jul 22 02:07:34 2007
+From: rvk_bayona at yahoo.com (Ryan Bayona)
+Date: Sat, 21 Jul 2007 17:07:34 -0700 (PDT)
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <8a8734580706050443g5f53c6fdw8b2a06517d32f725@mail.gmail.com>
+Message-ID: <902956.56185.qm@web36904.mail.mud.yahoo.com>
+
+Hi,
+
+    First time to suggest..
+
+    I've been reading your discussions regarding the use of AJAX and geocodes. You are right that AJAX do increase the HTTP requests, but i think the ultimate goal of using  of AJAX is the richness and responsiveness of application, giving the user a desktop-like experience. Like submitting the form data and displaying the submitted information without refreshing the whole page. I hope you'll consider EXTJS,,
+
+            http://extjs.com/deploy/ext/docs/index.html
+
+It has javascript GUI components,like data grid and some options for using JSON or XML.
+
+Regarding Geocode, there is a free web service here :                             
+            
+            http://www.geonames.org/export/
+
+They have comprehensive information on world locations, (latitude and longitude coordinates for Philippines included ). Their  web service   can return XML or JSON result set.
+
+Thanks!
+Ryan
+
+    
+    
+
+
+Herman Tolentino <herman.tolentino at gmail.com> wrote: Web 2.0 also encompasses a number of other things aside AJAX. O'Reily
+presents a good overview of what Web 2.0 is:
+
+http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html
+
+Mike is right in saying that AJAX might actually increase the number
+of HTTP requests but in an intranet environment (high-bandwidth
+situation) this will work well, in an ASP environment it will not.
+Google Gears is also another option to explore actually for both the
+intranet and ASP environments. The client database I hear runs on
+SQL-Lite.
+
+Herman
+
+On 6/5/07, Michael Muin, MD  wrote:
+> Hello,
+>
+> I think migrating to Web 2.0 is a good move. But we do need to
+> consider that AJAX does not minimize HTTP requests. It might DECREASE
+> the SIZE of requests, but it usually INCREASES the NUMBER of times an
+> HTTP request is done.
+>
+> If low-bandwidth conditions are expected, DHTML might help but AJAX
+> might not be a good step, unless it is in an intranet environment.
+>
+> Another good project to look into is Google Gear
+> (http://code.google.com/apis/gears/index.html). According to the site,
+> "Google Gears is an open source browser extension that lets developers
+> create web applications that can run offline." It was just announced a
+> few weeks ago and it may be worth experimenting with.
+>
+> If improvements in the interface are what you want, then looking at
+> pre-loading capabilities of AJAX (usually using JSON) may be
+> applicable for low-bandwidth situations. But sometimes well-planned
+> DHTML enhancements may already suffice.
+>
+> Good luck!
+>
+> Mike
+>
+> On 5/30/07, aoperez  wrote:
+> > It is also proposed that CHITS be slowly yet fully migrated to the
+> > specifications of Web 2.0. I am personally looking at the possibility of
+> > integrating AJAX to make the interface touchscreen-ready and minimize the
+> > HTTP requests to the server.
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+_______________________________________________
+chits-developer mailing list
+chits-developer at lists.berlios.de
+https://lists.berlios.de/mailman/listinfo/chits-developer
+
+
+       
+---------------------------------
+Sick sense of humor? Visit Yahoo! TV's Comedy with an Edge to see what's on, when. 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070721/0087c84d/attachment.html>
+
+From herman.tolentino at gmail.com  Sun Jul 22 15:19:07 2007
+From: herman.tolentino at gmail.com (Herman Tolentino)
+Date: Sun, 22 Jul 2007 09:19:07 -0400
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <902956.56185.qm@web36904.mail.mud.yahoo.com>
+References: <8a8734580706050443g5f53c6fdw8b2a06517d32f725@mail.gmail.com>
+	<902956.56185.qm@web36904.mail.mud.yahoo.com>
+Message-ID: <8a8734580707220619m17a4c697i7ad3b7fece46ecb2@mail.gmail.com>
+
+Ryan, very nice JS library!
+
+One thing I like about AJAX is the user retains focus on what he/she
+is doing since only the part being worked on is refreshed. This focus
+facilitates the task being done correctly in the context of a complex
+environment such as primary care. It also potentially prevents the
+user from putting in incorrect entries by adapting the interface to
+the task at hand.
+
+Herman
+
+On 7/21/07, Ryan Bayona <rvk_bayona at yahoo.com> wrote:
+> Hi,
+>
+>     First time to suggest..
+>
+>     I've been reading your discussions regarding the use of AJAX and
+> geocodes. You are right that AJAX do increase the HTTP requests, but i think
+> the ultimate goal of using  of AJAX is the richness and responsiveness of
+> application, giving the user a desktop-like experience. Like submitting the
+> form data and displaying the submitted information without refreshing the
+> whole page. I hope you'll consider EXTJS,,
+>
+>             http://extjs.com/deploy/ext/docs/index.html
+>
+> It has javascript GUI components,like data grid and some options for using
+> JSON or XML.
+>
+> Regarding Geocode, there is a free web service here :
+>
+>
+>             http://www.geonames.org/export/
+>
+> They have comprehensive information on world locations, (latitude and
+> longitude coordinates for Philippines included ). Their  web service  can
+> return XML or JSON result set.
+>
+> Thanks!
+> Ryan
+>
+>
+>
+>
+>
+> Herman Tolentino <herman.tolentino at gmail.com> wrote:
+>  Web 2.0 also encompasses a number of other things aside AJAX. O'Reily
+> presents a good overview of what Web 2.0 is:
+>
+> http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html
+>
+> Mike is right in saying that AJAX might actually increase the number
+> of HTTP requests but in an intranet environment (high-bandwidth
+> situation) this will work well, in an ASP environment it will not.
+> Google Gears is also another option to explore actually for both the
+> intranet and ASP environments. The client database I hear runs on
+> SQL-Lite.
+>
+> Herman
+>
+> On 6/5/07, Michael Muin, MD wrote:
+> > Hello,
+> >
+> > I think migrating to Web 2.0 is a good move. But we do need to
+> > consider that AJAX does not minimize HTTP requests. It might DECREASE
+> > the SIZE of requests, but it usually INCREASES the NUMBER of times an
+> > HTTP request is done.
+> >
+> > If low-bandwidth conditions are expected, DHTML might help but AJAX
+> > might not be a good step, unless it is in an intranet environment.
+> >
+> > Another good project to look into is Google Gear
+> > (http://code.google.com/apis/gears/index.html). According
+> to the site,
+> > "Google Gears is an open source browser extension that lets developers
+> > create web applications that can run offline." It was just announced a
+> > few weeks ago and it may be worth experimenting with.
+> >
+> > If improvements in the interface are what you want, then looking at
+> > pre-loading capabilities of AJAX (usually using JSON) may be
+> > applicable for low-bandwidth situations. But sometimes well-planned
+> > DHTML enhancements may already suffice.
+> >
+> > Good luck!
+> >
+> > Mike
+> >
+> > On 5/30/07, aoperez wrote:
+> > > It is also proposed that CHITS be slowly yet fully migrated to the
+> > > specifications of Web 2.0. I am personally looking at the possibility of
+> > > integrating AJAX to make the interface touchscreen-ready and minimize
+> the
+> > > HTTP requests to the server.
+> > _______________________________________________
+> > chits-developer mailing list
+> > chits-developer at lists.berlios.de
+> >
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+> >
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+>
+>
+>  ________________________________
+> Sick sense of humor? Visit Yahoo! TV's Comedy with an Edge to see what's on,
+> when.
+>
+>
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+>
+
+

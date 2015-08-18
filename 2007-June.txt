@@ -1,0 +1,505 @@
+From alison_perez at yahoo.com  Fri Jun  1 04:16:07 2007
+From: alison_perez at yahoo.com (aoperez)
+Date: Fri, 1 Jun 2007 03:16:07 +0100 (BST)
+Subject: [chits-developer] Fwd: CHITS Level 2 in Pasay
+Message-ID: <673870.63156.qm@web58204.mail.re3.yahoo.com>
+
+This message was posted in the CHITS end users mailing list.
+
+Note: forwarded message attached.
+
+
+Alison Perez
+Medical Informatics Unit, UPCM
+Linux Counter ID 366009
+YM ID: darth_ali
+Web Log: http://darthblitzkrieg.blogspot.com
+
+----------------------
+
+To follow the path: 
+look for the master, 
+follow the master, 
+walk with the master, 
+see through the master, 
+become the master.
+ 
+- old Zen poem
+
+
+ Send instant messages to your online friends http://uk.messenger.yahoo.com 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070601/34618178/attachment.html>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: "Alison Perez" <perez.alison at gmail.com>
+Subject: CHITS Level 2 in Pasay
+Date: Fri, 1 Jun 2007 10:12:45 +0800
+Size: 7795
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070601/34618178/attachment.mht>
+
+From alison_perez at yahoo.com  Tue Jun  5 07:29:58 2007
+From: alison_perez at yahoo.com (aoperez)
+Date: Tue, 5 Jun 2007 06:29:58 +0100 (BST)
+Subject: [chits-developer] A Study on Health Care Data Exchange and
+	Interoperability
+Message-ID: <700780.87055.qm@web58204.mail.re3.yahoo.com>
+
+http://content.healthaffairs.org/cgi/content/full/hlthaff.w5.10/DC1#16
+
+
+Alison Perez
+Medical Informatics Unit, UPCM
+Linux Counter ID 366009
+YM ID: darth_ali
+Web Log: http://darthblitzkrieg.blogspot.com
+
+----------------------
+
+To follow the path: 
+look for the master, 
+follow the master, 
+walk with the master, 
+see through the master, 
+become the master.
+ 
+- old Zen poem
+
+
+ Send instant messages to your online friends http://uk.messenger.yahoo.com 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070605/00cc1bad/attachment.html>
+
+From mikemuin at gmail.com  Tue Jun  5 07:50:22 2007
+From: mikemuin at gmail.com (Michael Muin, MD)
+Date: Tue, 5 Jun 2007 13:50:22 +0800
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <769000.92990.qm@web58214.mail.re3.yahoo.com>
+References: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+	<769000.92990.qm@web58214.mail.re3.yahoo.com>
+Message-ID: <8bfb1ff40706042250wafe990fu99209353998802ee@mail.gmail.com>
+
+Hello,
+
+I think migrating to Web 2.0 is a good move. But we do need to
+consider that AJAX does not minimize HTTP requests. It might DECREASE
+the SIZE of requests, but it usually INCREASES the NUMBER of times an
+HTTP request is done.
+
+If low-bandwidth conditions are expected, DHTML might help but AJAX
+might not be a good step, unless it is in an intranet environment.
+
+Another good project to look into is Google Gear
+(http://code.google.com/apis/gears/index.html). According to the site,
+"Google Gears is an open source browser extension that lets developers
+create web applications that can run offline." It was just announced a
+few weeks ago and it may be worth experimenting with.
+
+If improvements in the interface are what you want, then looking at
+pre-loading capabilities of AJAX (usually using JSON) may be
+applicable for low-bandwidth situations. But sometimes well-planned
+DHTML enhancements may already suffice.
+
+Good luck!
+
+Mike
+
+On 5/30/07, aoperez <alison_perez at yahoo.com> wrote:
+> It is also proposed that CHITS be slowly yet fully migrated to the
+> specifications of Web 2.0. I am personally looking at the possibility of
+> integrating AJAX to make the interface touchscreen-ready and minimize the
+> HTTP requests to the server.
+
+
+From herman.tolentino at gmail.com  Tue Jun  5 13:43:41 2007
+From: herman.tolentino at gmail.com (Herman Tolentino)
+Date: Tue, 5 Jun 2007 07:43:41 -0400
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <8bfb1ff40706042250wafe990fu99209353998802ee@mail.gmail.com>
+References: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+	<769000.92990.qm@web58214.mail.re3.yahoo.com>
+	<8bfb1ff40706042250wafe990fu99209353998802ee@mail.gmail.com>
+Message-ID: <8a8734580706050443g5f53c6fdw8b2a06517d32f725@mail.gmail.com>
+
+Web 2.0 also encompasses a number of other things aside AJAX. O'Reily
+presents a good overview of what Web 2.0 is:
+
+http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html
+
+Mike is right in saying that AJAX might actually increase the number
+of HTTP requests but in an intranet environment (high-bandwidth
+situation) this will work well, in an ASP environment it will not.
+Google Gears is also another option to explore actually for both the
+intranet and ASP environments. The client database I hear runs on
+SQL-Lite.
+
+Herman
+
+On 6/5/07, Michael Muin, MD <mikemuin at gmail.com> wrote:
+> Hello,
+>
+> I think migrating to Web 2.0 is a good move. But we do need to
+> consider that AJAX does not minimize HTTP requests. It might DECREASE
+> the SIZE of requests, but it usually INCREASES the NUMBER of times an
+> HTTP request is done.
+>
+> If low-bandwidth conditions are expected, DHTML might help but AJAX
+> might not be a good step, unless it is in an intranet environment.
+>
+> Another good project to look into is Google Gear
+> (http://code.google.com/apis/gears/index.html). According to the site,
+> "Google Gears is an open source browser extension that lets developers
+> create web applications that can run offline." It was just announced a
+> few weeks ago and it may be worth experimenting with.
+>
+> If improvements in the interface are what you want, then looking at
+> pre-loading capabilities of AJAX (usually using JSON) may be
+> applicable for low-bandwidth situations. But sometimes well-planned
+> DHTML enhancements may already suffice.
+>
+> Good luck!
+>
+> Mike
+>
+> On 5/30/07, aoperez <alison_perez at yahoo.com> wrote:
+> > It is also proposed that CHITS be slowly yet fully migrated to the
+> > specifications of Web 2.0. I am personally looking at the possibility of
+> > integrating AJAX to make the interface touchscreen-ready and minimize the
+> > HTTP requests to the server.
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+
+
+From alvin.marcelo at gmail.com  Tue Jun  5 14:15:27 2007
+From: alvin.marcelo at gmail.com (Alvin Marcelo)
+Date: Tue, 5 Jun 2007 20:15:27 +0800
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <8bfb1ff40706042250wafe990fu99209353998802ee@mail.gmail.com>
+References: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+	<769000.92990.qm@web58214.mail.re3.yahoo.com>
+	<8bfb1ff40706042250wafe990fu99209353998802ee@mail.gmail.com>
+Message-ID: <2c9aeb960706050515n5e69a91bpac758fa35151b31@mail.gmail.com>
+
+Thanks Mike. You're alive!
+
+Has anyone used twisted?
+
+exelearning.org is based on that and it works very fast...
+
+Our design goals are:
+
+1. reliability in an offline environment (most of the health centers)
+2. quicker interface (with refreshes staying on the control -- no need to
+page down again)..
+
+With regards data modeling, Alison is finishing up the proposal, but in
+essence:
+
+1. the geocode of the health facility (down to barangay level) becomes the
+healthcenter_id in db.xml
+
+2. the whole Phil Standard Geocodes are built into the source code
+
+3. CHITS automatically populates the barangay lookup table based on what
+geocode is hardcode dinto db.xml
+
+How's that? All we need to do then after evey install is to hard-code the
+geocode of the health facility...
+
+eloy
+
+
+
+On 6/5/07, Michael Muin, MD <mikemuin at gmail.com> wrote:
+>
+> Hello,
+>
+> I think migrating to Web 2.0 is a good move. But we do need to
+> consider that AJAX does not minimize HTTP requests. It might DECREASE
+> the SIZE of requests, but it usually INCREASES the NUMBER of times an
+> HTTP request is done.
+>
+> If low-bandwidth conditions are expected, DHTML might help but AJAX
+> might not be a good step, unless it is in an intranet environment.
+>
+> Another good project to look into is Google Gear
+> (http://code.google.com/apis/gears/index.html). According to the site,
+> "Google Gears is an open source browser extension that lets developers
+> create web applications that can run offline." It was just announced a
+> few weeks ago and it may be worth experimenting with.
+>
+> If improvements in the interface are what you want, then looking at
+> pre-loading capabilities of AJAX (usually using JSON) may be
+> applicable for low-bandwidth situations. But sometimes well-planned
+> DHTML enhancements may already suffice.
+>
+> Good luck!
+>
+> Mike
+>
+> On 5/30/07, aoperez <alison_perez at yahoo.com> wrote:
+> > It is also proposed that CHITS be slowly yet fully migrated to the
+> > specifications of Web 2.0. I am personally looking at the possibility of
+> > integrating AJAX to make the interface touchscreen-ready and minimize
+> the
+> > HTTP requests to the server.
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+
+
+
+-- 
+Alvin B. Marcelo, MD
+Director
+National Telehealth Center
+University of the Philippines Manila
+Telefax: 632-525-6501
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070605/5a8efa4e/attachment.html>
+
+From herman.tolentino at gmail.com  Tue Jun  5 14:18:16 2007
+From: herman.tolentino at gmail.com (Herman Tolentino)
+Date: Tue, 5 Jun 2007 08:18:16 -0400
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <2c9aeb960706050515n5e69a91bpac758fa35151b31@mail.gmail.com>
+References: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+	<769000.92990.qm@web58214.mail.re3.yahoo.com>
+	<8bfb1ff40706042250wafe990fu99209353998802ee@mail.gmail.com>
+	<2c9aeb960706050515n5e69a91bpac758fa35151b31@mail.gmail.com>
+Message-ID: <8a8734580706050518v68538184o556a22b23867775c@mail.gmail.com>
+
+If the geocodes can be converted into MySQL we can just create that as
+a module so that when it's loaded it automatically handles geocoding
+and barangay lookups.
+
+On 6/5/07, Alvin Marcelo <alvin.marcelo at gmail.com> wrote:
+> Thanks Mike. You're alive!
+>
+> Has anyone used twisted?
+>
+> exelearning.org is based on that and it works very fast...
+>
+> Our design goals are:
+>
+> 1. reliability in an offline environment (most of the health centers)
+> 2. quicker interface (with refreshes staying on the control -- no need to
+> page down again)..
+>
+> With regards data modeling, Alison is finishing up the proposal, but in
+> essence:
+>
+> 1. the geocode of the health facility (down to barangay level) becomes the
+> healthcenter_id in db.xml
+>
+> 2. the whole Phil Standard Geocodes are built into the source code
+>
+> 3. CHITS automatically populates the barangay lookup table based on what
+> geocode is hardcode dinto db.xml
+>
+> How's that? All we need to do then after evey install is to hard-code the
+> geocode of the health facility...
+>
+> eloy
+>
+>
+>
+> On 6/5/07, Michael Muin, MD <mikemuin at gmail.com> wrote:
+> > Hello,
+> >
+> > I think migrating to Web 2.0 is a good move. But we do need to
+> > consider that AJAX does not minimize HTTP requests. It might DECREASE
+> > the SIZE of requests, but it usually INCREASES the NUMBER of times an
+> > HTTP request is done.
+> >
+> > If low-bandwidth conditions are expected, DHTML might help but AJAX
+> > might not be a good step, unless it is in an intranet environment.
+> >
+> > Another good project to look into is Google Gear
+> > (http://code.google.com/apis/gears/index.html). According
+> to the site,
+> > "Google Gears is an open source browser extension that lets developers
+> > create web applications that can run offline." It was just announced a
+> > few weeks ago and it may be worth experimenting with.
+> >
+> > If improvements in the interface are what you want, then looking at
+> > pre-loading capabilities of AJAX (usually using JSON) may be
+> > applicable for low-bandwidth situations. But sometimes well-planned
+> > DHTML enhancements may already suffice.
+> >
+> > Good luck!
+> >
+> > Mike
+> >
+> > On 5/30/07, aoperez <alison_perez at yahoo.com> wrote:
+> > > It is also proposed that CHITS be slowly yet fully migrated to the
+> > > specifications of Web 2.0. I am personally looking at the possibility of
+> > > integrating AJAX to make the interface touchscreen-ready and minimize
+> the
+> > > HTTP requests to the server.
+> > _______________________________________________
+> > chits-developer mailing list
+> > chits-developer at lists.berlios.de
+> >
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+> >
+>
+>
+>
+> --
+> Alvin B. Marcelo, MD
+> Director
+> National Telehealth Center
+> University of the Philippines Manila
+> Telefax: 632-525-6501
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+>
+
+
+From alvin.marcelo at gmail.com  Tue Jun  5 14:49:34 2007
+From: alvin.marcelo at gmail.com (Alvin Marcelo)
+Date: Tue, 5 Jun 2007 20:49:34 +0800
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <8a8734580706050518v68538184o556a22b23867775c@mail.gmail.com>
+References: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+	<769000.92990.qm@web58214.mail.re3.yahoo.com>
+	<8bfb1ff40706042250wafe990fu99209353998802ee@mail.gmail.com>
+	<2c9aeb960706050515n5e69a91bpac758fa35151b31@mail.gmail.com>
+	<8a8734580706050518v68538184o556a22b23867775c@mail.gmail.com>
+Message-ID: <2c9aeb960706050549k1ca0f410y5d988f87902e6479@mail.gmail.com>
+
+Could be!
+
+Another important functions needed (by capiz) are additional tables for
+associating Midwife to Barangay and Barangay to Baramgay health station
+(BHS) (one BHS has one or more barangays). These tables are not needed for
+the transactions but only for generating reports....
+
+
+
+On 6/5/07, Herman Tolentino <herman.tolentino at gmail.com> wrote:
+>
+> If the geocodes can be converted into MySQL we can just create that as
+> a module so that when it's loaded it automatically handles geocoding
+> and barangay lookups.
+>
+> On 6/5/07, Alvin Marcelo <alvin.marcelo at gmail.com> wrote:
+> > Thanks Mike. You're alive!
+> >
+> > Has anyone used twisted?
+> >
+> > exelearning.org is based on that and it works very fast...
+> >
+> > Our design goals are:
+> >
+> > 1. reliability in an offline environment (most of the health centers)
+> > 2. quicker interface (with refreshes staying on the control -- no need
+> to
+> > page down again)..
+> >
+> > With regards data modeling, Alison is finishing up the proposal, but in
+> > essence:
+> >
+> > 1. the geocode of the health facility (down to barangay level) becomes
+> the
+> > healthcenter_id in db.xml
+> >
+> > 2. the whole Phil Standard Geocodes are built into the source code
+> >
+> > 3. CHITS automatically populates the barangay lookup table based on what
+> > geocode is hardcode dinto db.xml
+> >
+> > How's that? All we need to do then after evey install is to hard-code
+> the
+> > geocode of the health facility...
+> >
+> > eloy
+> >
+> >
+> >
+> > On 6/5/07, Michael Muin, MD <mikemuin at gmail.com> wrote:
+> > > Hello,
+> > >
+> > > I think migrating to Web 2.0 is a good move. But we do need to
+> > > consider that AJAX does not minimize HTTP requests. It might DECREASE
+> > > the SIZE of requests, but it usually INCREASES the NUMBER of times an
+> > > HTTP request is done.
+> > >
+> > > If low-bandwidth conditions are expected, DHTML might help but AJAX
+> > > might not be a good step, unless it is in an intranet environment.
+> > >
+> > > Another good project to look into is Google Gear
+> > > (http://code.google.com/apis/gears/index.html). According
+> > to the site,
+> > > "Google Gears is an open source browser extension that lets developers
+> > > create web applications that can run offline." It was just announced a
+> > > few weeks ago and it may be worth experimenting with.
+> > >
+> > > If improvements in the interface are what you want, then looking at
+> > > pre-loading capabilities of AJAX (usually using JSON) may be
+> > > applicable for low-bandwidth situations. But sometimes well-planned
+> > > DHTML enhancements may already suffice.
+> > >
+> > > Good luck!
+> > >
+> > > Mike
+> > >
+> > > On 5/30/07, aoperez <alison_perez at yahoo.com> wrote:
+> > > > It is also proposed that CHITS be slowly yet fully migrated to the
+> > > > specifications of Web 2.0. I am personally looking at the
+> possibility of
+> > > > integrating AJAX to make the interface touchscreen-ready and
+> minimize
+> > the
+> > > > HTTP requests to the server.
+> > > _______________________________________________
+> > > chits-developer mailing list
+> > > chits-developer at lists.berlios.de
+> > >
+> > https://lists.berlios.de/mailman/listinfo/chits-developer
+> > >
+> >
+> >
+> >
+> > --
+> > Alvin B. Marcelo, MD
+> > Director
+> > National Telehealth Center
+> > University of the Philippines Manila
+> > Telefax: 632-525-6501
+> > _______________________________________________
+> > chits-developer mailing list
+> > chits-developer at lists.berlios.de
+> > https://lists.berlios.de/mailman/listinfo/chits-developer
+> >
+> >
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+
+
+
+-- 
+Alvin B. Marcelo, MD
+Director
+National Telehealth Center
+University of the Philippines Manila
+Telefax: 632-525-6501
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070605/34a81db3/attachment.html>
+

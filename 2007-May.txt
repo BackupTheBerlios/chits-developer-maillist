@@ -1,0 +1,693 @@
+From herman.tolentino at gmail.com  Mon May 28 17:20:28 2007
+From: herman.tolentino at gmail.com (Herman Tolentino)
+Date: Mon, 28 May 2007 11:20:28 -0400
+Subject: [chits-developer] CHITS Updates
+Message-ID: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+
+Dear everyone,
+
+After a long hiatus, here's an update for this list.
+
+1. Dr. Alvin Marcelo has been working hard to spread the CHITS
+paradigm in the Philippines and has succeeded in beginning a tsunami.
+A number of provinces (Alvin can give exact number) have signed up for
+implementation. The lesson for public health informatics at the level
+Alvin is working is -- it is indeed like moving a big elephant. It
+takes a lot of convincing for people to move the elephant, more so
+convincing the elephant to move himself.
+
+2. CHITS will be receiving another round of funding from the United
+Nations Development Program soon.
+
+3. Herman will be developing the HIV/AIDS case surveillance portion of
+CHITS for use in the Caribbean (21 countries) for the Carribean
+Regional Epidemiology Network. There is no other way to introduce
+health information systems unless integrated -- if health information
+exchange and standards are the goals. A worthy goal for CHITS would be
+to eventually be used as a key application for use by the Health
+Metrics Network (HMN). HMN is a worldwide collaborative implemented at
+the government level to promote the use of high-quality information
+for decision-making. Currently, this remains a dream and is about to
+become a nightmare in the context of preparedness.
+
+Next steps for development:
+
+1. Alison Perez, who has been working with CHITS code from the very
+beginning is hereby appointed as lead CHITS developer. He will work
+with Herman (who will remain the CHITS architect) to conceptualize the
+portable record exchange and city health office version (for
+surveillance and reporting) for CHITS.
+
+2. Explore and adopt a viable (preferably open-source) model based on
+XML for portable records. Challenge for developers would be
+conceptualizing the system to create portable records with distributed
+encryption. This would assume that the system to create portable
+records also handles the clinical notes. Somebody from this list
+suggested enhancements and we clearly see that need to accommodate a
+wide variety of settings -- but with common data elements for
+reporting purposes.
+
+3. We can hold a Skype conference in June to talk about the
+development and coordination challenges for CHITS version 2.0. I am
+sure we can accommodate the different time zones involved. If you
+could kindly provide your time zone (country) to the list we can then
+come up with schedule options for the call -- Thanks in advance.
+
+Kind regards,
+Herman
+
+
+From alvin.marcelo at gmail.com  Wed May 30 00:24:12 2007
+From: alvin.marcelo at gmail.com (Alvin Marcelo)
+Date: Wed, 30 May 2007 06:24:12 +0800
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+References: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+Message-ID: <2c9aeb960705291524j10adaa10ve4d804bc338c29e2@mail.gmail.com>
+
+Hello all,
+
+Before I forget, here are some areas where CHITS will need help:
+
+1. Ajax (when appropriate)
+
+2. Laboratory module
+
+3. Code security (incl authentication)
+
+4. Data security
+
+5. Data warehousing/consolidation
+
+Not listed according to any priority -- just as it comes. Later, we can
+decide which comes first...
+
+eloy
+
+
+
+
+
+On 5/28/07, Herman Tolentino <herman.tolentino at gmail.com> wrote:
+>
+> Dear everyone,
+>
+> After a long hiatus, here's an update for this list.
+>
+> 1. Dr. Alvin Marcelo has been working hard to spread the CHITS
+> paradigm in the Philippines and has succeeded in beginning a tsunami.
+> A number of provinces (Alvin can give exact number) have signed up for
+> implementation. The lesson for public health informatics at the level
+> Alvin is working is -- it is indeed like moving a big elephant. It
+> takes a lot of convincing for people to move the elephant, more so
+> convincing the elephant to move himself.
+>
+> 2. CHITS will be receiving another round of funding from the United
+> Nations Development Program soon.
+>
+> 3. Herman will be developing the HIV/AIDS case surveillance portion of
+> CHITS for use in the Caribbean (21 countries) for the Carribean
+> Regional Epidemiology Network. There is no other way to introduce
+> health information systems unless integrated -- if health information
+> exchange and standards are the goals. A worthy goal for CHITS would be
+> to eventually be used as a key application for use by the Health
+> Metrics Network (HMN). HMN is a worldwide collaborative implemented at
+> the government level to promote the use of high-quality information
+> for decision-making. Currently, this remains a dream and is about to
+> become a nightmare in the context of preparedness.
+>
+> Next steps for development:
+>
+> 1. Alison Perez, who has been working with CHITS code from the very
+> beginning is hereby appointed as lead CHITS developer. He will work
+> with Herman (who will remain the CHITS architect) to conceptualize the
+> portable record exchange and city health office version (for
+> surveillance and reporting) for CHITS.
+>
+> 2. Explore and adopt a viable (preferably open-source) model based on
+> XML for portable records. Challenge for developers would be
+> conceptualizing the system to create portable records with distributed
+> encryption. This would assume that the system to create portable
+> records also handles the clinical notes. Somebody from this list
+> suggested enhancements and we clearly see that need to accommodate a
+> wide variety of settings -- but with common data elements for
+> reporting purposes.
+>
+> 3. We can hold a Skype conference in June to talk about the
+> development and coordination challenges for CHITS version 2.0. I am
+> sure we can accommodate the different time zones involved. If you
+> could kindly provide your time zone (country) to the list we can then
+> come up with schedule options for the call -- Thanks in advance.
+>
+> Kind regards,
+> Herman
+>
+
+
+
+-- 
+Alvin B. Marcelo, MD
+Director
+National Telehealth Center
+University of the Philippines Manila
+Telefax: 632-525-6501
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070530/4cdd1ec1/attachment.html>
+
+From alison_perez at yahoo.com  Wed May 30 15:29:49 2007
+From: alison_perez at yahoo.com (aoperez)
+Date: Wed, 30 May 2007 14:29:49 +0100 (BST)
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+Message-ID: <769000.92990.qm@web58214.mail.re3.yahoo.com>
+
+Greeting everyone! 
+
+Presently, CHITS end users are collaborating in identifying both the needs and enhancements arising from CHITS. CHITS has been installed in 12 sites as of May 2007. The first batch of end users (Pasay City) have already identified 30+ CHITS related questions that they would have want the application to answer. It is pretty evident that the "data extraction" and report generation mechanism should be first in our priority list.
+
+My suggestion here is to create a separate CHITS tool that has the following components:
+
+1. set of electronic version of paper reports -- there have been changes in the format of the present FHSIS form. The electronic Target Client List (TCL) will be solely accessible to the health center while the City/Provincial Health Office can only view statistical reports (i.e. reports containing numbers only not patient or case details).
+
+
+2. A dynamic report generator where users can enter values in the search criteria . This is like a more user-friendly version of PhpMyAdmin.
+
+It is also proposed that CHITS be slowly yet fully migrated to the specifications of Web 2.0. I am personally looking at the possibility of integrating AJAX to make the interface touchscreen-ready and minimize the HTTP requests to the server.
+
+The local implementors of CHITS are looking at the possibility of integrating the health center data at the CHO / PHO level. Doc Eloy, even Capiz PHO will include the strategy integration of RHU data in its meeting in the last week of June.
+
+Perhaps, if interconnectivity is the major issue, the solution would probably be portable record exchange as what Dr. Tolentino is mentioning. 
+
+The future development of CHITS is one exciting yet interesting endeavor.
+
+
+
+
+Herman Tolentino <herman.tolentino at gmail.com> wrote: Dear everyone,
+
+After a long hiatus, here's an update for this list.
+
+1. Dr. Alvin Marcelo has been working hard to spread the CHITS
+paradigm in the Philippines and has succeeded in beginning a tsunami.
+A number of provinces (Alvin can give exact number) have signed up for
+implementation. The lesson for public health informatics at the level
+Alvin is working is -- it is indeed like moving a big elephant. It
+takes a lot of convincing for people to move the elephant, more so
+convincing the elephant to move himself.
+
+2. CHITS will be receiving another round of funding from the United
+Nations Development Program soon.
+
+3. Herman will be developing the HIV/AIDS case surveillance portion of
+CHITS for use in the Caribbean (21 countries) for the Carribean
+Regional Epidemiology Network. There is no other way to introduce
+health information systems unless integrated -- if health information
+exchange and standards are the goals. A worthy goal for CHITS would be
+to eventually be used as a key application for use by the Health
+Metrics Network (HMN). HMN is a worldwide collaborative implemented at
+the government level to promote the use of high-quality information
+for decision-making. Currently, this remains a dream and is about to
+become a nightmare in the context of preparedness.
+
+Next steps for development:
+
+1. Alison Perez, who has been working with CHITS code from the very
+beginning is hereby appointed as lead CHITS developer. He will work
+with Herman (who will remain the CHITS architect) to conceptualize the
+portable record exchange and city health office version (for
+surveillance and reporting) for CHITS.
+
+2. Explore and adopt a viable (preferably open-source) model based on
+XML for portable records. Challenge for developers would be
+conceptualizing the system to create portable records with distributed
+encryption. This would assume that the system to create portable
+records also handles the clinical notes. Somebody from this list
+suggested enhancements and we clearly see that need to accommodate a
+wide variety of settings -- but with common data elements for
+reporting purposes.
+
+3. We can hold a Skype conference in June to talk about the
+development and coordination challenges for CHITS version 2.0. I am
+sure we can accommodate the different time zones involved. If you
+could kindly provide your time zone (country) to the list we can then
+come up with schedule options for the call -- Thanks in advance.
+
+Kind regards,
+Herman
+_______________________________________________
+chits-developer mailing list
+chits-developer at lists.berlios.de
+https://lists.berlios.de/mailman/listinfo/chits-developer
+
+
+
+
+Alison Perez
+Medical Informatics Unit, UPCM
+Linux Counter ID 366009
+YM ID: darth_ali
+Web Log: http://darthblitzkrieg.blogspot.com
+
+----------------------
+
+To follow the path: 
+look for the master, 
+follow the master, 
+walk with the master, 
+see through the master, 
+become the master.
+ 
+- old Zen poem
+
+
+ Send instant messages to your online friends http://uk.messenger.yahoo.com 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070530/d1e2ec91/attachment.html>
+
+From alison_perez at yahoo.com  Wed May 30 15:29:49 2007
+From: alison_perez at yahoo.com (aoperez)
+Date: Wed, 30 May 2007 14:29:49 +0100 (BST)
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+Message-ID: <769000.92990.qm@web58214.mail.re3.yahoo.com>
+
+Greeting everyone! 
+
+Presently, CHITS end users are collaborating in identifying both the needs and enhancements arising from CHITS. CHITS has been installed in 12 sites as of May 2007. The first batch of end users (Pasay City) have already identified 30+ CHITS related questions that they would have want the application to answer. It is pretty evident that the "data extraction" and report generation mechanism should be first in our priority list.
+
+My suggestion here is to create a separate CHITS tool that has the following components:
+
+1. set of electronic version of paper reports -- there have been changes in the format of the present FHSIS form. The electronic Target Client List (TCL) will be solely accessible to the health center while the City/Provincial Health Office can only view statistical reports (i.e. reports containing numbers only not patient or case details).
+
+
+2. A dynamic report generator where users can enter values in the search criteria . This is like a more user-friendly version of PhpMyAdmin.
+
+It is also proposed that CHITS be slowly yet fully migrated to the specifications of Web 2.0. I am personally looking at the possibility of integrating AJAX to make the interface touchscreen-ready and minimize the HTTP requests to the server.
+
+The local implementors of CHITS are looking at the possibility of integrating the health center data at the CHO / PHO level. Doc Eloy, even Capiz PHO will include the strategy integration of RHU data in its meeting in the last week of June.
+
+Perhaps, if interconnectivity is the major issue, the solution would probably be portable record exchange as what Dr. Tolentino is mentioning. 
+
+The future development of CHITS is one exciting yet interesting endeavor.
+
+
+
+
+Herman Tolentino <herman.tolentino at gmail.com> wrote: Dear everyone,
+
+After a long hiatus, here's an update for this list.
+
+1. Dr. Alvin Marcelo has been working hard to spread the CHITS
+paradigm in the Philippines and has succeeded in beginning a tsunami.
+A number of provinces (Alvin can give exact number) have signed up for
+implementation. The lesson for public health informatics at the level
+Alvin is working is -- it is indeed like moving a big elephant. It
+takes a lot of convincing for people to move the elephant, more so
+convincing the elephant to move himself.
+
+2. CHITS will be receiving another round of funding from the United
+Nations Development Program soon.
+
+3. Herman will be developing the HIV/AIDS case surveillance portion of
+CHITS for use in the Caribbean (21 countries) for the Carribean
+Regional Epidemiology Network. There is no other way to introduce
+health information systems unless integrated -- if health information
+exchange and standards are the goals. A worthy goal for CHITS would be
+to eventually be used as a key application for use by the Health
+Metrics Network (HMN). HMN is a worldwide collaborative implemented at
+the government level to promote the use of high-quality information
+for decision-making. Currently, this remains a dream and is about to
+become a nightmare in the context of preparedness.
+
+Next steps for development:
+
+1. Alison Perez, who has been working with CHITS code from the very
+beginning is hereby appointed as lead CHITS developer. He will work
+with Herman (who will remain the CHITS architect) to conceptualize the
+portable record exchange and city health office version (for
+surveillance and reporting) for CHITS.
+
+2. Explore and adopt a viable (preferably open-source) model based on
+XML for portable records. Challenge for developers would be
+conceptualizing the system to create portable records with distributed
+encryption. This would assume that the system to create portable
+records also handles the clinical notes. Somebody from this list
+suggested enhancements and we clearly see that need to accommodate a
+wide variety of settings -- but with common data elements for
+reporting purposes.
+
+3. We can hold a Skype conference in June to talk about the
+development and coordination challenges for CHITS version 2.0. I am
+sure we can accommodate the different time zones involved. If you
+could kindly provide your time zone (country) to the list we can then
+come up with schedule options for the call -- Thanks in advance.
+
+Kind regards,
+Herman
+_______________________________________________
+chits-developer mailing list
+chits-developer at lists.berlios.de
+https://lists.berlios.de/mailman/listinfo/chits-developer
+
+
+
+
+Alison Perez
+Medical Informatics Unit, UPCM
+Linux Counter ID 366009
+YM ID: darth_ali
+Web Log: http://darthblitzkrieg.blogspot.com
+
+----------------------
+
+To follow the path: 
+look for the master, 
+follow the master, 
+walk with the master, 
+see through the master, 
+become the master.
+ 
+- old Zen poem
+
+
+ Send instant messages to your online friends http://uk.messenger.yahoo.com 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070530/d1e2ec91/attachment-0001.html>
+
+From alvin.marcelo at gmail.com  Thu May 31 15:47:26 2007
+From: alvin.marcelo at gmail.com (Alvin Marcelo)
+Date: Thu, 31 May 2007 21:47:26 +0800
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <769000.92990.qm@web58214.mail.re3.yahoo.com>
+References: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+	<769000.92990.qm@web58214.mail.re3.yahoo.com>
+Message-ID: <2c9aeb960705310647q25fe65f6vcaa54cec02107512@mail.gmail.com>
+
+Hi all,
+
+I?ve asked Alison to post the queries which the Pasay people are interested
+in. On one hand, I think the SQL guys can lend a hand by helping us come up
+with the queries (given the data model).
+
+As for the query tool being a separate module, I?l leave that to Alison and
+Doc Herman. But if you ask me, a quick tool to just view the data would
+suffice. I know there is a query tool inside CHITS so just getting the SQL
+out can quickly solve this need....
+
+
+
+On 5/30/07, aoperez <alison_perez at yahoo.com> wrote:
+>
+> Greeting everyone!
+>
+> Presently, CHITS end users are collaborating in identifying both the needs
+> and enhancements arising from CHITS. CHITS has been installed in 12 sites as
+> of May 2007. The first batch of end users (Pasay City) have already
+> identified 30+ CHITS related questions that they would have want the
+> application to answer. It is pretty evident that the "data extraction" and
+> report generation mechanism should be first in our priority list.
+>
+> My suggestion here is to create a separate CHITS tool that has the
+> following components:
+>
+> 1. set of electronic version of paper reports -- there have been changes
+> in the format of the present FHSIS form. The electronic Target Client List
+> (TCL) will be solely accessible to the health center while the
+> City/Provincial Health Office can only view statistical reports (i.e.
+> reports containing numbers only not patient or case details).
+>
+>
+> 2. A dynamic report generator where users can enter values in the search
+> criteria . This is like a more user-friendly version of PhpMyAdmin.
+>
+> It is also proposed that CHITS be slowly yet fully migrated to the
+> specifications of Web 2.0. I am personally looking at the possibility of
+> integrating AJAX to make the interface touchscreen-ready and minimize the
+> HTTP requests to the server.
+>
+> The local implementors of CHITS are looking at the possibility of
+> integrating the health center data at the CHO / PHO level. Doc Eloy, even
+> Capiz PHO will include the strategy integration of RHU data in its meeting
+> in the last week of June.
+>
+> Perhaps, if interconnectivity is the major issue, the solution would
+> probably be portable record exchange as what Dr. Tolentino is mentioning.
+>
+> The future development of CHITS is one exciting yet interesting endeavor.
+>
+>
+>
+>
+> *Herman Tolentino <herman.tolentino at gmail.com>* wrote:
+>
+> Dear everyone,
+>
+> After a long hiatus, here's an update for this list.
+>
+> 1. Dr. Alvin Marcelo has been working hard to spread the CHITS
+> paradigm in the Philippines and has succeeded in beginning a tsunami.
+> A number of provinces (Alvin can give exact number) have signed up for
+> implementation. The lesson for public health informatics at the level
+> Alvin is working is -- it is indeed like moving a big elephant. It
+> takes a lot of convincing for people to move the elephant, more so
+> convincing the elephant to move himself.
+>
+> 2. CHITS will be receiving another round of funding from the United
+> Nations Development Program soon.
+>
+> 3. Herman will be developing the HIV/AIDS case surveillance portion of
+> CHITS for use in the Caribbean (21 countries) for the Carribean
+> Regional Epidemiology Network. There is no other way to introduce
+> health information systems unless integrated -- if health information
+> exchange and standards are the goals. A worthy goal for CHITS would be
+> to eventually be used as a key application for use by the Health
+> Metrics Network (HMN). HMN is a worldwide collaborative implemented at
+> the government level to promote the use of high-quality information
+> for decision-making. Currently, this remains a dream and is about to
+> become a nightmare in the context of preparedness.
+>
+> Next steps for development:
+>
+> 1. Alison Perez, who has been working with CHITS code from the very
+> beginning is hereby appointed as lead CHITS developer. He will work
+> with Herman (who will remain the CHITS architect) to conceptualize the
+> portable record exchange and city health office version (for
+> surveillance and reporting) for CHITS.
+>
+> 2. Explore and adopt a viable (preferably open-source) model based on
+> XML for portable records. Challenge for developers would be
+> conceptualizing the system to create portable records with distributed
+> encryption. This would assume that the system to create portable
+> records also handles the clinical notes. Somebody from this list
+> suggested enhancements and we clearly see that need to accommodate a
+> wide variety of settings -- but with common data elements for
+> reporting purposes.
+>
+> 3. We can hold a Skype conference in June to talk about the
+> development and coordination challenges for CHITS version 2.0. I am
+> sure we can accommodate the different time zones involved. If you
+> could kindly provide your time zone (country) to the list we can then
+> come up with schedule options for the call -- Thanks in advance.
+>
+> Kind regards,
+> Herman
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+>
+>
+>
+>
+> Alison Perez
+> Medical Informatics Unit, UPCM
+> Linux Counter ID 366009<http://counter.li.org/cgi-bin/runscript/display-person.cgi?user=366009>
+> YM ID: darth_ali
+> Web Log: http://darthblitzkrieg.blogspot.com
+>
+> ----------------------
+>
+> *To follow the path:
+> look for the master,
+> follow the master,
+> walk with the master,
+> see through the master,
+> become the master.*
+> *- old Zen poem*
+>
+> Send instant messages to your online friends http://uk.messenger.yahoo.com
+>
+
+
+
+-- 
+Alvin B. Marcelo, MD
+Director
+National Telehealth Center
+University of the Philippines Manila
+Telefax: 632-525-6501
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070531/c0e414fc/attachment.html>
+
+From alvin.marcelo at gmail.com  Thu May 31 15:47:26 2007
+From: alvin.marcelo at gmail.com (Alvin Marcelo)
+Date: Thu, 31 May 2007 21:47:26 +0800
+Subject: [chits-developer] CHITS Updates
+In-Reply-To: <769000.92990.qm@web58214.mail.re3.yahoo.com>
+References: <8a8734580705280820p68f84c6k815fe2a032418323@mail.gmail.com>
+	<769000.92990.qm@web58214.mail.re3.yahoo.com>
+Message-ID: <2c9aeb960705310647q25fe65f6vcaa54cec02107512@mail.gmail.com>
+
+Hi all,
+
+I?ve asked Alison to post the queries which the Pasay people are interested
+in. On one hand, I think the SQL guys can lend a hand by helping us come up
+with the queries (given the data model).
+
+As for the query tool being a separate module, I?l leave that to Alison and
+Doc Herman. But if you ask me, a quick tool to just view the data would
+suffice. I know there is a query tool inside CHITS so just getting the SQL
+out can quickly solve this need....
+
+
+
+On 5/30/07, aoperez <alison_perez at yahoo.com> wrote:
+>
+> Greeting everyone!
+>
+> Presently, CHITS end users are collaborating in identifying both the needs
+> and enhancements arising from CHITS. CHITS has been installed in 12 sites as
+> of May 2007. The first batch of end users (Pasay City) have already
+> identified 30+ CHITS related questions that they would have want the
+> application to answer. It is pretty evident that the "data extraction" and
+> report generation mechanism should be first in our priority list.
+>
+> My suggestion here is to create a separate CHITS tool that has the
+> following components:
+>
+> 1. set of electronic version of paper reports -- there have been changes
+> in the format of the present FHSIS form. The electronic Target Client List
+> (TCL) will be solely accessible to the health center while the
+> City/Provincial Health Office can only view statistical reports (i.e.
+> reports containing numbers only not patient or case details).
+>
+>
+> 2. A dynamic report generator where users can enter values in the search
+> criteria . This is like a more user-friendly version of PhpMyAdmin.
+>
+> It is also proposed that CHITS be slowly yet fully migrated to the
+> specifications of Web 2.0. I am personally looking at the possibility of
+> integrating AJAX to make the interface touchscreen-ready and minimize the
+> HTTP requests to the server.
+>
+> The local implementors of CHITS are looking at the possibility of
+> integrating the health center data at the CHO / PHO level. Doc Eloy, even
+> Capiz PHO will include the strategy integration of RHU data in its meeting
+> in the last week of June.
+>
+> Perhaps, if interconnectivity is the major issue, the solution would
+> probably be portable record exchange as what Dr. Tolentino is mentioning.
+>
+> The future development of CHITS is one exciting yet interesting endeavor.
+>
+>
+>
+>
+> *Herman Tolentino <herman.tolentino at gmail.com>* wrote:
+>
+> Dear everyone,
+>
+> After a long hiatus, here's an update for this list.
+>
+> 1. Dr. Alvin Marcelo has been working hard to spread the CHITS
+> paradigm in the Philippines and has succeeded in beginning a tsunami.
+> A number of provinces (Alvin can give exact number) have signed up for
+> implementation. The lesson for public health informatics at the level
+> Alvin is working is -- it is indeed like moving a big elephant. It
+> takes a lot of convincing for people to move the elephant, more so
+> convincing the elephant to move himself.
+>
+> 2. CHITS will be receiving another round of funding from the United
+> Nations Development Program soon.
+>
+> 3. Herman will be developing the HIV/AIDS case surveillance portion of
+> CHITS for use in the Caribbean (21 countries) for the Carribean
+> Regional Epidemiology Network. There is no other way to introduce
+> health information systems unless integrated -- if health information
+> exchange and standards are the goals. A worthy goal for CHITS would be
+> to eventually be used as a key application for use by the Health
+> Metrics Network (HMN). HMN is a worldwide collaborative implemented at
+> the government level to promote the use of high-quality information
+> for decision-making. Currently, this remains a dream and is about to
+> become a nightmare in the context of preparedness.
+>
+> Next steps for development:
+>
+> 1. Alison Perez, who has been working with CHITS code from the very
+> beginning is hereby appointed as lead CHITS developer. He will work
+> with Herman (who will remain the CHITS architect) to conceptualize the
+> portable record exchange and city health office version (for
+> surveillance and reporting) for CHITS.
+>
+> 2. Explore and adopt a viable (preferably open-source) model based on
+> XML for portable records. Challenge for developers would be
+> conceptualizing the system to create portable records with distributed
+> encryption. This would assume that the system to create portable
+> records also handles the clinical notes. Somebody from this list
+> suggested enhancements and we clearly see that need to accommodate a
+> wide variety of settings -- but with common data elements for
+> reporting purposes.
+>
+> 3. We can hold a Skype conference in June to talk about the
+> development and coordination challenges for CHITS version 2.0. I am
+> sure we can accommodate the different time zones involved. If you
+> could kindly provide your time zone (country) to the list we can then
+> come up with schedule options for the call -- Thanks in advance.
+>
+> Kind regards,
+> Herman
+> _______________________________________________
+> chits-developer mailing list
+> chits-developer at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/chits-developer
+>
+>
+>
+>
+>
+> Alison Perez
+> Medical Informatics Unit, UPCM
+> Linux Counter ID 366009<http://counter.li.org/cgi-bin/runscript/display-person.cgi?user=366009>
+> YM ID: darth_ali
+> Web Log: http://darthblitzkrieg.blogspot.com
+>
+> ----------------------
+>
+> *To follow the path:
+> look for the master,
+> follow the master,
+> walk with the master,
+> see through the master,
+> become the master.*
+> *- old Zen poem*
+>
+> Send instant messages to your online friends http://uk.messenger.yahoo.com
+>
+
+
+
+-- 
+Alvin B. Marcelo, MD
+Director
+National Telehealth Center
+University of the Philippines Manila
+Telefax: 632-525-6501
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/chits-developer/attachments/20070531/c0e414fc/attachment-0001.html>
+

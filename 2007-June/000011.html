@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [chits-developer] CHITS Updates
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/chits-developer/2007-June/index.html" >
+   <LINK REL="made" HREF="mailto:chits-developer%40lists.berlios.de?Subject=Re%3A%20%5Bchits-developer%5D%20CHITS%20Updates&In-Reply-To=%3C8a8734580706050518v68538184o556a22b23867775c%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000010.html">
+   <LINK REL="Next"  HREF="000012.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[chits-developer] CHITS Updates</H1>
+    <B>Herman Tolentino</B> 
+    <A HREF="mailto:chits-developer%40lists.berlios.de?Subject=Re%3A%20%5Bchits-developer%5D%20CHITS%20Updates&In-Reply-To=%3C8a8734580706050518v68538184o556a22b23867775c%40mail.gmail.com%3E"
+       TITLE="[chits-developer] CHITS Updates">herman.tolentino at gmail.com
+       </A><BR>
+    <I>Tue Jun  5 14:18:16 CEST 2007</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000010.html">[chits-developer] CHITS Updates
+</A></li>
+        <LI>Next message: <A HREF="000012.html">[chits-developer] CHITS Updates
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#11">[ date ]</a>
+              <a href="thread.html#11">[ thread ]</a>
+              <a href="subject.html#11">[ subject ]</a>
+              <a href="author.html#11">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>If the geocodes can be converted into MySQL we can just create that as
+a module so that when it's loaded it automatically handles geocoding
+and barangay lookups.
+
+On 6/5/07, Alvin Marcelo &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/chits-developer">alvin.marcelo at gmail.com</A>&gt; wrote:
+&gt;<i> Thanks Mike. You're alive!
+</I>&gt;<i>
+</I>&gt;<i> Has anyone used twisted?
+</I>&gt;<i>
+</I>&gt;<i> exelearning.org is based on that and it works very fast...
+</I>&gt;<i>
+</I>&gt;<i> Our design goals are:
+</I>&gt;<i>
+</I>&gt;<i> 1. reliability in an offline environment (most of the health centers)
+</I>&gt;<i> 2. quicker interface (with refreshes staying on the control -- no need to
+</I>&gt;<i> page down again)..
+</I>&gt;<i>
+</I>&gt;<i> With regards data modeling, Alison is finishing up the proposal, but in
+</I>&gt;<i> essence:
+</I>&gt;<i>
+</I>&gt;<i> 1. the geocode of the health facility (down to barangay level) becomes the
+</I>&gt;<i> healthcenter_id in db.xml
+</I>&gt;<i>
+</I>&gt;<i> 2. the whole Phil Standard Geocodes are built into the source code
+</I>&gt;<i>
+</I>&gt;<i> 3. CHITS automatically populates the barangay lookup table based on what
+</I>&gt;<i> geocode is hardcode dinto db.xml
+</I>&gt;<i>
+</I>&gt;<i> How's that? All we need to do then after evey install is to hard-code the
+</I>&gt;<i> geocode of the health facility...
+</I>&gt;<i>
+</I>&gt;<i> eloy
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> On 6/5/07, Michael Muin, MD &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/chits-developer">mikemuin at gmail.com</A>&gt; wrote:
+</I>&gt;<i> &gt; Hello,
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; I think migrating to Web 2.0 is a good move. But we do need to
+</I>&gt;<i> &gt; consider that AJAX does not minimize HTTP requests. It might DECREASE
+</I>&gt;<i> &gt; the SIZE of requests, but it usually INCREASES the NUMBER of times an
+</I>&gt;<i> &gt; HTTP request is done.
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; If low-bandwidth conditions are expected, DHTML might help but AJAX
+</I>&gt;<i> &gt; might not be a good step, unless it is in an intranet environment.
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; Another good project to look into is Google Gear
+</I>&gt;<i> &gt; (<A HREF="http://code.google.com/apis/gears/index.html">http://code.google.com/apis/gears/index.html</A>). According
+</I>&gt;<i> to the site,
+</I>&gt;<i> &gt; &quot;Google Gears is an open source browser extension that lets developers
+</I>&gt;<i> &gt; create web applications that can run offline.&quot; It was just announced a
+</I>&gt;<i> &gt; few weeks ago and it may be worth experimenting with.
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; If improvements in the interface are what you want, then looking at
+</I>&gt;<i> &gt; pre-loading capabilities of AJAX (usually using JSON) may be
+</I>&gt;<i> &gt; applicable for low-bandwidth situations. But sometimes well-planned
+</I>&gt;<i> &gt; DHTML enhancements may already suffice.
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; Good luck!
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; Mike
+</I>&gt;<i> &gt;
+</I>&gt;<i> &gt; On 5/30/07, aoperez &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/chits-developer">alison_perez at yahoo.com</A>&gt; wrote:
+</I>&gt;<i> &gt; &gt; It is also proposed that CHITS be slowly yet fully migrated to the
+</I>&gt;<i> &gt; &gt; specifications of Web 2.0. I am personally looking at the possibility of
+</I>&gt;<i> &gt; &gt; integrating AJAX to make the interface touchscreen-ready and minimize
+</I>&gt;<i> the
+</I>&gt;<i> &gt; &gt; HTTP requests to the server.
+</I>&gt;<i> &gt; _______________________________________________
+</I>&gt;<i> &gt; chits-developer mailing list
+</I>&gt;<i> &gt; <A HREF="https://lists.berlios.de/mailman/listinfo/chits-developer">chits-developer at lists.berlios.de</A>
+</I>&gt;<i> &gt;
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/chits-developer">https://lists.berlios.de/mailman/listinfo/chits-developer</A>
+</I>&gt;<i> &gt;
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> --
+</I>&gt;<i> Alvin B. Marcelo, MD
+</I>&gt;<i> Director
+</I>&gt;<i> National Telehealth Center
+</I>&gt;<i> University of the Philippines Manila
+</I>&gt;<i> Telefax: 632-525-6501
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> chits-developer mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/chits-developer">chits-developer at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/chits-developer">https://lists.berlios.de/mailman/listinfo/chits-developer</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000010.html">[chits-developer] CHITS Updates
+</A></li>
+	<LI>Next message: <A HREF="000012.html">[chits-developer] CHITS Updates
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#11">[ date ]</a>
+              <a href="thread.html#11">[ thread ]</a>
+              <a href="subject.html#11">[ subject ]</a>
+              <a href="author.html#11">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/chits-developer">More information about the chits-developer
+mailing list</a><br>
+</body></html>
